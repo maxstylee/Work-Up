@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   background-color: hsl(216, 12%, 8%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 900px;
+   width: auto;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box {
+    background-color: hsl(213, 24%, 13%);
+    width: 400px;
+    height:420px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box .box1 img {
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+.box .box1 .forp {
+    background-color:hsla(210, 20%, 20%, 0.685);
+    color: hsl(25, 50%, 53%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 34px;
+}
+.box .box1 .divp {
+    display: flex;
+    justify-content: center;
+}
+.box .box1 h1 {
+    color: white;
+    padding: 30px 0 14px;
+    font-weight: 500;
+}
+.box .box1 .forp2 {
+    color: hsl(217, 12%, 57%);
+}

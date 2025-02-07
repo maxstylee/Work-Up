@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 800px;
+}
+.box {
+    background-color: white;
+    width: 326px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.box .forim {
+    padding: 10px;
+}
+.box .forim img {
+    width: 296px;
+    border-radius: 8px;
+}
+.box h3 {
+    color: hsl(218, 44%, 25%);
+}
+.box p {
+    font-size: 15px;
+    color: hsl(216, 15%, 55%);
+    font-weight: 500;
+    padding: 15px;
+    padding-bottom: 30px;
+}

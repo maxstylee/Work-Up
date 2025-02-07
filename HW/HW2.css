@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    justify-content:space-between;
+    width: 570px;
+    height: 429.7px;
+    background-color: white;
+    border-radius: 10px;
+}
+.box img {
+    width: 286px;
+    border-radius: 10px 0 0 10px;
+}
+.box .boxtxt {
+    width: 256px;
+}
+.box .boxtxt .fortxt h5 {
+    font-family: 'montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    padding: 30px 0px 3px;
+}
+.box .boxtxt .fortxt p {
+    font-family: 'montserrat';
+    font-size: 14px;
+    color: hsla(228, 12%, 48%, 0.834);
+    font-weight: 500;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+.box .boxtxt .fortxt h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    padding: 15px 0;
+    line-height: 1;
+}
+.box .boxtxt .price {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+    padding: 15px 0 22px;
+}
+.box .boxtxt .price p {
+    font-family: 'montserrat';
+    font-size: 14px;
+    color: hsla(228, 12%, 48%, 0.918);
+    font-weight: 500;
+}
+.box .boxtxt .forbut button {
+    background-color:  hsl(158, 36%, 37%);
+    color: white;
+    width: 230px;
+    height: 45px ;
+    font-family: 'montserrat';
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+}
+.box .boxtxt .forbut button:hover {
+    cursor: pointer;
+}
+.box .boxtxt .forbut button:active {
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
+}
+
